@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Projetos from './pages/Projetos';
 import Trajetoria from './pages/Trajetoria';
 import Contato from './pages/Contato';
-import './styles/global.css'; // Seu CSS global de reset (body, *, html)
+import './styles/global.css'; 
 
 function App() {
   return (

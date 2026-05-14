@@ -1,12 +1,10 @@
-// src/pages/Home.jsx
 import { useEffect, useRef } from 'react';
 import '../styles/style.css';
 
-// ESTA LINHA É CRUCIAL: Verifique o caminho e o nome exato do arquivo
 import euImg from '../assets/img/eu.jpg'; 
 
 export default function Home() {
-    // ...resto do código (na tag <img>, use src={euImg})
+
   const typewriterRef = useRef(null);
 
   useEffect(() => {
